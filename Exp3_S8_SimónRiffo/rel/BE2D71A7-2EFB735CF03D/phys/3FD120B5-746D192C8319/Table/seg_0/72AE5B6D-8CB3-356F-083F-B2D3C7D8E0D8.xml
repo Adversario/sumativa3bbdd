@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EscuelaDeportiva" directorySegmentName="seg_0" id="72AE5B6D-8CB3-356F-083F-B2D3C7D8E0D8">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre" id="922DD764-A9CE-9C88-D612-133E0970AE2C">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipo" id="9D3CE30A-5EE6-09C6-FAA9-6D75732B609B">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="contacto" id="A19CC349-F127-E196-7A24-C3C5D2825549">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_escuela" id="C10DE77E-21A6-D2AC-7E7F-FDF06AA7E94B">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ubicacion" id="DA98CC50-B4CB-0C31-0901-AE02B90133AD">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EscuelaDeportiva_PK" id="98E3986E-A540-877D-2647-743C713EFC3B">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

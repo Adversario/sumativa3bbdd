@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB60D3D5-A030-369A-DC9A-E77414DB916F" name="Costos">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>32401416-F663-3502-2E88-9E68066EBA83</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_costo" id="C93561F7-2ED4-37C9-4C5F-8CCDEA0BA6E6">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>62E9EC22-E2D8-9BCA-47AF-868FEE05C571</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="9D34F6FC-0497-EBB7-E56D-3D8B030ACAFD">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>67399704-E38A-F700-FA2B-27A57C9795C5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9532D5CC-1556-CE38-0AE1-702E656D7857</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="090074B4-4AAC-8214-90AF-6BD97487C770">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>C54280BE-F6ED-402C-6D9D-B3B0AB0872E0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_escuela" id="1F16B92C-1AED-CA95-8064-952684EF8FB8">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>DEF7A6F6-92BA-C79D-AFB4-2A306DC2E8BB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00F7DDA6-CBB5-44A2-94F0-CE09AB4E461C" referredColumn="C10DE77E-21A6-D2AC-7E7F-FDF06AA7E94B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB92EA27-133B-7EA2-71B0-402376FB3724" name="Costos_PK">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>6A9C398C-06EA-FA7C-DBAC-80078CB5C13A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C93561F7-2ED4-37C9-4C5F-8CCDEA0BA6E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E591989-BDBB-E79D-850C-8BE2131B8DBF" name="fk_escuela_costos">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F16B92C-1AED-CA95-8064-952684EF8FB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Personal" directorySegmentName="seg_0" id="27F57F8E-9D29-F4A1-DA77-747E683AFC28">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_personal" id="03CFCACF-0771-8F14-9072-C8525F3089C3">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="profesion" id="13E6C65B-B255-74B6-9A53-0F4F482752B2">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="3245A9AB-4548-AE79-569D-2473CD7A2F82">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_escuela" id="5341E54C-75DB-32F8-C907-059095BF4EC6">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nacionalidad" id="D0491EFB-FDD9-1F5C-E390-B97E3A0BB8A5">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_escuela_personal" id="040DAC93-E4E8-273F-4856-F20FDD336DC1">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Personal_PK" id="83BC7AB1-3AD0-71C7-7C20-46F27CA8ABDB">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

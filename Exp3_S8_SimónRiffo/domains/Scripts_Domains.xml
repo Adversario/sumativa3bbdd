@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Scripts_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Scripts_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="16289A52-5F6D-AC33-46EE-E331FADB7C5B">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>Scripts_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="23EE5520-2398-61E3-28FF-B089898C020D">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>Scripts_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="9532D5CC-1556-CE38-0AE1-702E656D7857">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>Scripts_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

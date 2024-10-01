@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC21525A-B0A2-5FD6-1F2C-26957FF4505A" name="Personal">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>27F57F8E-9D29-F4A1-DA77-747E683AFC28</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id personal" id="7F4D187B-4859-A7FB-71AF-45CF108FA727">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>03CFCACF-0771-8F14-9072-C8525F3089C3</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="98EBD829-D25B-A8F7-08F7-AADD8588B9A3">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>3245A9AB-4548-AE79-569D-2473CD7A2F82</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9532D5CC-1556-CE38-0AE1-702E656D7857</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profesion" id="DD3284B2-8DED-193B-1D6A-04B51E8C5976">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>13E6C65B-B255-74B6-9A53-0F4F482752B2</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="BE0EABF5-4830-23F1-FE47-8E30C0E07673">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>D0491EFB-FDD9-1F5C-E390-B97E3A0BB8A5</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id escuela" id="DBAA8049-71CE-3648-E050-797893CBE048">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>1A079DAE-1AD6-0D84-139A-209B2365BEA7</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>43F5718E-9BD0-804E-8E22-6E857B189B6B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5836BB33-144A-4085-B1E8-CE819413CB48" name="Personal PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>83BC7AB1-3AD0-71C7-7C20-46F27CA8ABDB</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F4D187B-4859-A7FB-71AF-45CF108FA727</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

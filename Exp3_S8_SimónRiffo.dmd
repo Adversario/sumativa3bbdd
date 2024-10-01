@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp3_S8_SimónRiffo" id="D8FC70AA-14A9-8108-971F-773EE7D9464C" version="3.5">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:04:55 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D8FC70AA-14A9-8108-971F-773EE7D9464C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4D927565-573B-1526-BADD-7A09EC4F81C5">
+<designStoragePath>C:\Scripts</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FFE458E1-1998-611F-F0E1-9DB9B89C169D">
+<designStoragePath>C:\Scripts</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6FE528F3-CB7D-3AFA-D213-3415A7B807E6">
+<designStoragePath>C:\Scripts</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

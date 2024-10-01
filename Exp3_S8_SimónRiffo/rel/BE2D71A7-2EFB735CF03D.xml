@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" mainViewID="E7902658-7710-26DE-8C18-05B23CF83F98">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:04:55 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Scripts.ddl</fileName>
+<pathName>C:\Users\Adversario\Documents\Exp3_S8_SimónRiffo</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Auto_Incrementable.ddl</fileName>
+<pathName>C:\Users\Adversario\Documents\Exp3_S8_SimónRiffo</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Poblado_Tablas.ddl</fileName>
+<pathName>C:\Users\Adversario\Documents\Exp3_S8_SimónRiffo</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

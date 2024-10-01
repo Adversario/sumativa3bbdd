@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BF5D9A8-ECAE-41CD-F84A-77217036A280" name="Costos">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>AB60D3D5-A030-369A-DC9A-E77414DB916F</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id costo" id="9F8875FC-8FC5-10C5-4422-C96045655DC3">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>C93561F7-2ED4-37C9-4C5F-8CCDEA0BA6E6</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="3CFA255A-82CB-F1D7-C7EE-F119EC045D66">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>9D34F6FC-0497-EBB7-E56D-3D8B030ACAFD</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9532D5CC-1556-CE38-0AE1-702E656D7857</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="B9E77DB1-16C9-CCDD-7F9E-2490BF23E0D5">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>090074B4-4AAC-8214-90AF-6BD97487C770</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id escuela" id="B0790420-6626-629C-4F6F-02BE28B2199B">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>ADB9D90B-0FAC-71AD-CFE6-FEFF82A4C857</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>43F5718E-9BD0-804E-8E22-6E857B189B6B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7299FBD4-2D27-CAC8-75F5-0A657D21C207" name="Costos PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>AB92EA27-133B-7EA2-71B0-402376FB3724</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F8875FC-8FC5-10C5-4422-C96045655DC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

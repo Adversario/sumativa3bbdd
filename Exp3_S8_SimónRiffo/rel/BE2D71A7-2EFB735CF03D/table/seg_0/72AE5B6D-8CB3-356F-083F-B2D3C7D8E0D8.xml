@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72AE5B6D-8CB3-356F-083F-B2D3C7D8E0D8" name="EscuelaDeportiva">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>F394C7E2-E9E3-0064-FDD3-D6933900FA7B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="C10DE77E-21A6-D2AC-7E7F-FDF06AA7E94B">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>7A75D38A-5B08-9506-8913-047CA86B3BD5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="922DD764-A9CE-9C88-D612-133E0970AE2C">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>1FC37B8C-E5DA-DE6E-29C8-6D99E61C9856</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9532D5CC-1556-CE38-0AE1-702E656D7857</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="9D3CE30A-5EE6-09C6-FAA9-6D75732B609B">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>4416E134-D743-7E12-1E31-03FB00A31102</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="DA98CC50-B4CB-0C31-0901-AE02B90133AD">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>5405C852-0EF4-65CC-6143-E3A629083A48</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>16289A52-5F6D-AC33-46EE-E331FADB7C5B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contacto" id="A19CC349-F127-E196-7A24-C3C5D2825549">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>37B58FDF-761E-28A6-4472-D130AE92B4F1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98E3986E-A540-877D-2647-743C713EFC3B" name="EscuelaDeportiva_PK">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>C07F2FDB-FEE4-0D66-B7A9-2032FD99035D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C10DE77E-21A6-D2AC-7E7F-FDF06AA7E94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

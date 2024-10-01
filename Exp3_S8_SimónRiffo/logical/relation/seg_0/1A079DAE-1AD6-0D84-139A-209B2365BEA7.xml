@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_escuela_personal" directorySegmentName="seg_0" id="1A079DAE-1AD6-0D84-139A-209B2365BEA7">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>71D0AB8B-2AF3-9DD0-2D00-115D749407DE</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<sourcePk>E9DB0FB1-68E1-7097-2940-228C4B632F4D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C64B94AF-4D0C-C5A2-91F2-8EC882820D1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC21525A-B0A2-5FD6-1F2C-26957FF4505A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

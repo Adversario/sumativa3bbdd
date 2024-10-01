@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C64B94AF-4D0C-C5A2-91F2-8EC882820D1C" name="EscuelaDeportiva">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>72AE5B6D-8CB3-356F-083F-B2D3C7D8E0D8</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id escuela" id="43F5718E-9BD0-804E-8E22-6E857B189B6B">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>C10DE77E-21A6-D2AC-7E7F-FDF06AA7E94B</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CF54C7EB-02C1-4867-240F-C9B9992CB667">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>922DD764-A9CE-9C88-D612-133E0970AE2C</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9532D5CC-1556-CE38-0AE1-702E656D7857</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="28C404CE-D5E5-F331-D466-77DF8D245E30">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>9D3CE30A-5EE6-09C6-FAA9-6D75732B609B</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="80460AC7-1DB0-285F-898B-CC842106A7C6">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>DA98CC50-B4CB-0C31-0901-AE02B90133AD</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>16289A52-5F6D-AC33-46EE-E331FADB7C5B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contacto" id="81D361C0-8D63-4FE9-C1E0-C31691EFF245">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>A19CC349-F127-E196-7A24-C3C5D2825549</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9DB0FB1-68E1-7097-2940-228C4B632F4D" name="EscuelaDeportiva PK">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:46:43 UTC</createdTime>
+<generatorID>98E3986E-A540-877D-2647-743C713EFC3B</generatorID>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<engineerTo>
+<item key="BE2D71A7-9345-67A5-3FD9-2EFB735CF03D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43F5718E-9BD0-804E-8E22-6E857B189B6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

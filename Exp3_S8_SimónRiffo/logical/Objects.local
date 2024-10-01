@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="8BF5D9A8-ECAE-41CD-F84A-77217036A280" name="Costos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1063D969-53B3-37FA-0FCC-B9C01BFC01D5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C64B94AF-4D0C-C5A2-91F2-8EC882820D1C" name="EscuelaDeportiva" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1063D969-53B3-37FA-0FCC-B9C01BFC01D5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="AC21525A-B0A2-5FD6-1F2C-26957FF4505A" name="Personal" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1063D969-53B3-37FA-0FCC-B9C01BFC01D5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="ADB9D90B-0FAC-71AD-CFE6-FEFF82A4C857" name="fk_escuela_costos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1063D969-53B3-37FA-0FCC-B9C01BFC01D5" propertySourceId="C64B94AF-4D0C-C5A2-91F2-8EC882820D1C" propertyTargetId="8BF5D9A8-ECAE-41CD-F84A-77217036A280"/>
+   <object objectType="Relation" objectID="1A079DAE-1AD6-0D84-139A-209B2365BEA7" name="fk_escuela_personal" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1063D969-53B3-37FA-0FCC-B9C01BFC01D5" propertySourceId="C64B94AF-4D0C-C5A2-91F2-8EC882820D1C" propertyTargetId="AC21525A-B0A2-5FD6-1F2C-26957FF4505A"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

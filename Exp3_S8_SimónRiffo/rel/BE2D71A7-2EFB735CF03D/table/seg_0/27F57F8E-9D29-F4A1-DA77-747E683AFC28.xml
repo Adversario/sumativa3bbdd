@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27F57F8E-9D29-F4A1-DA77-747E683AFC28" name="Personal">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>B2D88E41-F7C0-EE71-F5CF-3979AC900E11</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_personal" id="03CFCACF-0771-8F14-9072-C8525F3089C3">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>D78A33F7-F45C-023B-533C-8697847BBD9B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3245A9AB-4548-AE79-569D-2473CD7A2F82">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>7C0207BD-830E-939E-ACA4-84D48F4BB7C6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9532D5CC-1556-CE38-0AE1-702E656D7857</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profesion" id="13E6C65B-B255-74B6-9A53-0F4F482752B2">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>014F3FA6-2F94-1695-E1D2-D3C702A83DDB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="D0491EFB-FDD9-1F5C-E390-B97E3A0BB8A5">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>E352401C-A16E-ABB4-E460-83D50A2DDBC2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>23EE5520-2398-61E3-28FF-B089898C020D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_escuela" id="5341E54C-75DB-32F8-C907-059095BF4EC6">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>849325BE-7230-901C-4783-4E3C5249B9AD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>03DA0B03-9C0C-6CAF-C35C-6DD31E77D2A4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71D0AB8B-2AF3-9DD0-2D00-115D749407DE" referredColumn="C10DE77E-21A6-D2AC-7E7F-FDF06AA7E94B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83BC7AB1-3AD0-71C7-7C20-46F27CA8ABDB" name="Personal_PK">
+<sourceDDLFile>Scripts.ddl</sourceDDLFile>
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<importedID>57514190-7311-B5BE-857C-0877A5157BF7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03CFCACF-0771-8F14-9072-C8525F3089C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="040DAC93-E4E8-273F-4856-F20FDD336DC1" name="fk_escuela_personal">
+<createdBy>Adversario</createdBy>
+<createdTime>2024-09-30 23:08:37 UTC</createdTime>
+<ownerDesignName>Exp3_S8_SimónRiffo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5341E54C-75DB-32F8-C907-059095BF4EC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
